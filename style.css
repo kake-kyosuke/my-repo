@@ -40,3 +40,20 @@ a:visited {
 main {
     height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
 }
+
+.wrap {
+    width: 840px;
+    margin: 1px auto;
+    padding: 40px 80px;
+    border: #F8B042 0px solid;
+    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-left:20px;
+    justify-content: space-between;
+    list-style: none;
+}
