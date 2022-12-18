@@ -38,7 +38,7 @@ a:visited {
     color: rgb(0, 0, 0);
 }
 main {
-    height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+    height: 50vw; /* スクロールの演出を見れるようにmainに高さを指定 */
 }
 
 .wrap {
@@ -50,10 +50,14 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
-.flex2{
+.flex2 {
     display: flex;
     background-color: rgb(255, 255, 255);
     margin-left:20px;
     justify-content: space-between;
     list-style: none;
+}
+
+.center {
+    text-align:center;
 }
