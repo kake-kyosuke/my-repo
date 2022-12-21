@@ -29,6 +29,12 @@ header .gnav .menu li + li {
     margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
 }
 
+h2.enc{
+    border-bottom: solid 2px #5d627b;
+    border-left: solid 10px #5d627b;
+    padding: 10px 30px;
+}
+
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -37,14 +43,23 @@ a {
 a:visited {
     color: rgb(0, 0, 0);
 }
+
 main {
-    height: 50vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+    width: 1040px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.sidebar {
+    width: 200px;
+    margin-left:auto;
 }
 
 .wrap {
     width: 840px;
-    margin: 1px auto;
-    padding: 40px 80px;
+    margin-left: 30px;
+    padding-bottom: 30px;
     border: #F8B042 0px solid;
     background-color: #fff;
     background-color: rgb(255, 255, 255);
